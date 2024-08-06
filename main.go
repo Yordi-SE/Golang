@@ -55,7 +55,7 @@ func main() {
 		fmt.Printf("%s: %.3f\n", i, val)
 	}
 	av := sums / float64(n)
-	fmt.Print(av, n)
+	// fmt.Print(av, n)
 	fmt.Printf("\nAverage: %.3f\n", av)
 
 }
